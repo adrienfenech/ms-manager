@@ -1,0 +1,27 @@
+{
+  "name": "ms-manager",
+  "private": false,
+  "version": "0.1.0",
+  "description": "[MS][PACKAGE] NPM Micro-Service Package, dedicated to micro-services management",
+  "main": "msManager.js",
+  "scripts": {
+    "test": "mocha **.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrienfenech/ms-manager.git"
+  },
+  "author": "Adrien Fenech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrienfenech/ms-manager/issues"
+  },
+  "homepage": "https://github.com/adrienfenech/ms-manager#readme",
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "chai": "^4.1.2"
+  },
+  "dependencies": {
+    "hydra": "1.5.5"
+  }
+}
